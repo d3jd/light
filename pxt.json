@@ -1,0 +1,31 @@
+{
+    "name": "light",
+    "version": "1.0",
+    "description": "d3gd led matrix",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "ws2812b": "github:Microsoft/pxt-ws2812b#v0.0.4"
+    },
+    "files": [
+        "README.md",
+        "neopixel.ts",
+        "_locales/zh/neopixel-strings.json",
+        "_locales/ja/neopixel-strings.json",
+        "_locales/de/neopixel-strings.json",
+        "_locales/de/neopixel-jsdoc-strings.json"
+    ],
+    "testFiles": [
+        "neotest.ts"
+    ],
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 0
+                }
+            }
+        }
+    },
+    "public": true
+}
