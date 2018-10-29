@@ -24,5 +24,6 @@
             }
         }
     },
-    "public": true
+    "public": true,
+    "installedVersion": "workspace:d0ed7649-2d6a-4ee3-e7a4-6e8118483cde"
 }
