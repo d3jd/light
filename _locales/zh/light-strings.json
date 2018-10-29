@@ -29,9 +29,9 @@
   "neopixel.Strip.showRainbow|block": "%strip|显示彩虹特效 （色相）从%startHue|到 %endHue",
   "neopixel.Strip.show|block": "%strip|刷新显示",
   "neopixel.colors|block": "%颜色",
-  "neopixel.create|block": "灯带使用引脚 %pin|且拥有 %numleds|颗LED（模式%mode|）",
+  "neopixel.create|block": "使用引脚 %pin|且拥有 %numleds|颗LED（模式%mode|）",
   "neopixel.hsl|block": "色相 %h|饱和度 %s|亮度 %l",
   "neopixel.rgb|block": "红 %red|绿 %green|蓝 %blue",
   "neopixel|block": "彩色点阵屏",
-  "{id:category}Neopixel": "Light"
+  "{id:category}Neopixel": "彩色点阵屏"
 }

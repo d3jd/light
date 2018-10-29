@@ -1,7 +1,7 @@
 {
-    "name": "light",
-    "version": "1.0",
-    "description": "d3gd led matrix",
+    "name": "彩色点阵屏",
+    "version": "1.2.1",
+    "description": "第三基地 LED点阵屏",
     "license": "MIT",
     "dependencies": {
         "core": "*",
