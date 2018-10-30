@@ -1,6 +1,6 @@
 {
-    "name": "light",
-    "version": "1.2.1",
+    "name": "LED_Matrix",
+    "version": "1.2.2",
     "description": "第三基地 LED点阵屏",
     "license": "MIT",
     "dependencies": {
@@ -24,6 +24,5 @@
             }
         }
     },
-    "public": true,
-    "installedVersion": "workspace:d0ed7649-2d6a-4ee3-e7a4-6e8118483cde"
+    "public": true
 }
