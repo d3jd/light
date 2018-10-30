@@ -1,6 +1,6 @@
 {
     "name": "light",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "description": "第三基地 LED点阵屏",
     "license": "MIT",
     "dependencies": {
