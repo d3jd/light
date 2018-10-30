@@ -19,7 +19,7 @@
     "neopixel.Strip.range|block": "%strip|从像素 %start|开始 长度%length|颗LED",
     "neopixel.Strip.rotate|block": "%strip|循环移动像素 %offset 格",
     "neopixel.Strip.setBrightness|block": "%strip|设置亮度为 %brightness",
-    "neopixel.Strip.setMatrixColor|block": "%strip|设置像素点 x %x|y %y|为颜色 %rgb=neopixel_colors",
+    "neopixel.Strip.setMatrixColor|block": "%strip|设置像素点 x %x|y %y|为 %rgb=neopixel_colors",
     "neopixel.Strip.setMatrixWidth|block": "%strip|设置矩阵宽度 %width",
     "neopixel.Strip.setPixelColor|block": "%strip|设置颜色 像素%pixeloffset|为 %rgb=neopixel_colors",
     "neopixel.Strip.setPixelWhiteLED|block": "%strip|设置白灯(RGB+W) 像素%pixeloffset|为 %white",
