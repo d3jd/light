@@ -179,7 +179,7 @@ namespace neopixel {
         //% blockId="neopixel_set_pixel_color" block="%strip|set pixel color at %pixeloffset|to %rgb=neopixel_colors" 
         //% blockGap=8
         //% weight=80
-        //% parts="neopixel" advanced=true
+        //% parts="neopixel" advanced=false
         setPixelColor(pixeloffset: number, rgb: number): void {
             this.setPixelRGB(pixeloffset >> 0, rgb >> 0);
         }
@@ -269,7 +269,7 @@ namespace neopixel {
          */
         //% blockId="neopixel_set_brightness" block="%strip|set brightness %brightness" blockGap=8
         //% weight=59
-        //% parts="neopixel" advanced=true
+        //% parts="neopixel" advanced=false
         setBrightness(brightness: number): void {
             this.brightness = brightness & 0xff;
         }
