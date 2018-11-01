@@ -55,6 +55,18 @@ namespace neopixel {
         _matrixWidth: number; // number of leds in a matrix - if any
 
         /**
+         * Set the brightness of the strip. This flag only applies to future operation.
+         * @param brightness a measure of LED brightness in 0-255. eg: 255
+         */
+        //% blockId="neopixel_set_brightness" block="%strip|set brightness %brightness" blockGap=8
+        //% weight=59
+        //% parts="neopixel" advanced=false
+        setBrightness(brightness: number): void {
+            this.brightness = brightness & 0xff;
+        }
+
+
+        /**
          * Shows all LEDs to a given color (range 0-255 for r, g, b). 
          * @param rgb RGB color of the LED
          */
@@ -179,7 +191,7 @@ namespace neopixel {
         //% blockId="neopixel_set_pixel_color" block="%strip|set pixel color at %pixeloffset|to %rgb=neopixel_colors" 
         //% blockGap=8
         //% weight=80
-        //% parts="neopixel" advanced=true
+        //% parts="neopixel" advanced=false
         setPixelColor(pixeloffset: number, rgb: number): void {
             this.setPixelRGB(pixeloffset >> 0, rgb >> 0);
         }
@@ -261,17 +273,6 @@ namespace neopixel {
         //% weight=60 advanced=true
         length() {
             return this._length;
-        }
-
-        /**
-         * Set the brightness of the strip. This flag only applies to future operation.
-         * @param brightness a measure of LED brightness in 0-255. eg: 255
-         */
-        //% blockId="neopixel_set_brightness" block="%strip|set brightness %brightness" blockGap=8
-        //% weight=59
-        //% parts="neopixel" advanced=true
-        setBrightness(brightness: number): void {
-            this.brightness = brightness & 0xff;
         }
 
         /**
@@ -534,6 +535,7 @@ namespace neopixel {
      * @param l luminosity from 0 to 99
      */
     //% blockId=neopixelHSL block="hue %h|saturation %s|luminosity %l"
+    //% advanced=true
     export function hsl(h: number, s: number, l: number): number {
         h = Math.round(h);
         s = Math.round(s);
