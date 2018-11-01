@@ -1,10 +1,11 @@
-# d3gd light
+# 第三基地 彩色点阵屏扩展
+Third Fundation LED Matrix Extension
 
-Support led matrix
+![led matrix](./led_matrix.png?raw=true "led matrix")
 
 ## License
 
-MIT
+此项目使用 MIT 授权许可 - 更多细节查看 [LICENSE.md](LICENSE.md)
 
 ## Supported targets
 
